@@ -124,13 +124,14 @@
 
 **Table 7: Complexity Scaling with Graph Size**
 
-| Graph Size | |V| | |E| | Teacher FLOPs | Student FLOPs | Memory (Teacher) | Memory (Student) |
-|------------|-----|-----|---------------|---------------|------------------|------------------|
-| Small | 1K | 5K | 76M | 12M | 0.5 MB | 0.3 MB |
-| Medium | 10K | 50K | 760M | 120M | 5.1 MB | 2.8 MB |
+| Graph Size | \|V\| | \|E\| | Teacher FLOPs | Student FLOPs | Memory (Teacher) | Memory (Student) |
+|------------|--------|--------|---------------|---------------|------------------|------------------|
+| Small      | 1K     | 5K     | 76M           | 12M           | 0.5 MB           | 0.3 MB           |
+| Medium     | 10K    | 50K    | 760M          | 120M          | 5.1 MB           | 2.8 MB           |
 | **Amazon** | **11.9K** | **8.8M** | **4.0B** | **0.61B** | **6.1 MB** | **3.1 MB** |
-| Large | 100K | 5M | 7.6B | 1.2B | 51 MB | 26 MB |
-| X-Large | 1M | 50M | 76B | 12B | 512 MB | 256 MB |
+| Large      | 100K   | 5M     | 7.6B          | 1.2B          | 51 MB            | 26 MB            |
+| X-Large    | 1M     | 50M    | 76B           | 12B           | 512 MB           | 256 MB           |
+
 
 **Validation of Theorem 7:** Linear scaling O(|V| + |E|) × h confirmed across all sizes, with **consistent 6-7× FLOP reduction**
 
@@ -352,7 +353,9 @@ Multi-scale learning provides **12.6% improvement** for combined anomalies over 
 
 ---
 
-**We respectfully request reconsideration to Accept (8)** given comprehensive responses above and the work's significant contribution to efficient graph anomaly detection. **Thank you for the thorough and constructive review.**
+**We respectfully request reconsideration to Accept (8)**.
+
+**Thank you for the thorough and constructive review.**
 
 ---
 
